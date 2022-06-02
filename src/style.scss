@@ -1,0 +1,76 @@
+$body-color: black;
+
+* {
+	margin: 0;
+	padding: 0;
+
+	box-sizing: border-box;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+	color: $body-color;
+	background-color: rgba(17, 166, 235, 0.548);
+}
+
+header {
+	background-color: rgb(56, 56, 56);
+	color: white;
+	padding: 1rem;
+
+	h1 {
+		text-align: center;
+
+		font-size: 3rem;
+	}
+}
+
+form {
+	padding: 2rem;
+}
+
+.info {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 3rem;
+	flex-wrap: wrap;
+	color: white;
+	gap: 1rem;
+}
+
+input {
+	font-size: 1.3rem;
+	border-radius: 0.5rem;
+	border: none;
+	padding: 0.1rem;
+}
+
+button {
+	font-size: 1.3rem;
+
+	color: white;
+	border: none;
+	border-radius: 0.5rem;
+	background-color: rgb(56, 56, 56);
+	padding: 0.1rem;
+}
+
+.info-style {
+	padding: 2rem;
+	border-radius: 1rem;
+	background-color: rgb(56, 56, 56);
+}
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.city-name {
+	font-size: 2.5rem;
+}
+.temp {
+	color: rgb(255, 166, 0);
+	font-size: 2rem;
+}

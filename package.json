@@ -1,0 +1,21 @@
+{
+  "name": "weatherapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack-cli": "^4.7.2"
+  },
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "sass": "^1.36.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.47.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
